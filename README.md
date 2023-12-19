@@ -25,7 +25,7 @@ as purchased. Here is an overview of what changes they apply:
 doesn't happen from within EWRAM, the reason why the Chinese patch does this is
 unknown)
 - changes `<ReadFlashId>` to always return the ID of the Sanyo 1Mbit chip used
-on official cartridges of mainline Pokemon games (0x1362)
+on official cartridges of mainline Pokemon games (`0x1362`)
 - modifies `<IdentifyFlash+0x38>`, `<IdentifyFlash+0x3a>` and
 `<IdentifyFlash+0x3e>`
 - changes `<EraseFlashSector_MX>` to call `<routine1+0x269>`
